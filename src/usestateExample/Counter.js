@@ -7,7 +7,8 @@ function Counter() {
   
   return (
     <>
-      <div style={{ color: "Red" }}>
+    <h1>Counter Increase/Decrease using Hook useState</h1>
+      <div style={{ color: "black" }}>
 
         <h1>{count}</h1>
 

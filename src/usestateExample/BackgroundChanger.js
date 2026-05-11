@@ -7,13 +7,14 @@ function BackgroundChanger(){
 
 return(
     <>
+    <h1>Color Change Using Hook UseState</h1>
     <div style={{background: color}}>
     <button onClick={()=>{setColor("white")}}>Deafult</button>
     <button onClick={()=>{setColor("red")}}>red</button>
     <button onClick={()=>{setColor("green")}}>green</button>
     <button onClick={()=>{setColor("yellow")}}>Yellow</button>
 
-    <h1>Current Color: {color}</h1>
+    <h2>Current Color: {color}</h2>
     </div>
 </>
 );
